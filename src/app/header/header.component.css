@@ -1,0 +1,28 @@
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 2vw;
+}
+li{
+    color: white;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+nav{
+    margin-left: 0;
+}
+img{
+    width: 4vw;  
+    height: 4vw;  
+    border-radius: 50%;
+    border: 1px solid white;
+    object-fit: cover;
+    cursor: pointer;
+}

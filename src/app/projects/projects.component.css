@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      height: 100vh;
+    z-index: 1;
+    padding-top: 0;
+    margin-top: 0;
+}
+.main-content{
+  z-index: 10;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin-top: 7vh;
+    margin-bottom: 20vh;
+}
+.main-row{
+    display: flex;
+    flex-direction: row;
+    max-width: 80vw;
+}
+.vid-container{
+    flex: 2;
+}
+.vid-desc{
+    flex: 1;
+}
+.animation{
+    opacity: 1;
+    transform: translateY(80px);
+    animation: floatIn 1.5s ease-out forwards;
+}
+h3, p{
+    color: white;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+@keyframes floatIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
