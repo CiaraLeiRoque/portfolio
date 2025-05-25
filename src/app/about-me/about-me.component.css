@@ -1,0 +1,84 @@
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    
+}
+.animation{
+    opacity: 1;
+    transform: translateY(80px);
+    animation: floatIn 1.5s ease-out forwards;
+}
+@keyframes floatIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.my_pic {
+  width: 40vw;
+  height: auto; 
+  object-fit: cover;
+  display: block;
+}
+.img-container{
+    width: fit-content;
+    border: 1px solid white;
+    padding: 1.5rem;
+    margin-left: auto;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+        margin-left: 8vw;
+}
+.about-me{
+    font-size: 5rem;
+    color: white;
+    margin-top: 0;
+}
+p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+a{
+    margin: 0 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.contact {
+    padding-top: 2vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.contact a {
+  display: flex;
+  align-items: center;
+}
+
+.second-contact{
+    margin-left: 3rem;
+}
+.icon{
+    width: 3vw;
+    height: auto;
+    object-fit: cover;
+   
+}
+span{
+    margin-left: 1rem;
+    color: white;
+        font-family: 'Raleway', sans-serif;
+            font-size: 1.1rem;
+}
+.resume{
+    margin-left: 10.5rem;
+}

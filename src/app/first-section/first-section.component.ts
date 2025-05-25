@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class FirstSectionComponent {
 
+      scrollToProjects1(): void{
+    const el = document.getElementById("about-me");
+    if(el){
+      el.scrollIntoView({behavior: 'smooth'});
+    }
+  }
 }
